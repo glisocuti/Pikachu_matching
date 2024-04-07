@@ -1,0 +1,4 @@
+﻿  Menu.cpp
+E:\Pikachu-Game-master\Pikachu\Menu.cpp(13,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+E:\Pikachu-Game-master\Pikachu\Menu.cpp(13,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Pikachu.vcxproj -> E:\Pikachu-Game-master\x64\Debug\Pikachu.exe
