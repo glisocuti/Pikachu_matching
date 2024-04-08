@@ -381,11 +381,11 @@ void Menu::helpScreen()
 	printRectangle(45, 27, 8, 2);
 	Controller::setConsoleColor(BRIGHT_WHITE, RED);
 	Controller::gotoXY(43, 28);
-	putchar(175);
+	putchar(174);
 	Controller::gotoXY(48, 28);
 	cout << "Back";
 	Controller::gotoXY(56, 28);
-	putchar(174);
+	putchar(175);
 	while (Controller::getConsoleInput() != 6)
 	{
 		Controller::playSound(ERROR_SOUND);
