@@ -815,7 +815,7 @@ void Game::askContinue()
 	Controller::setConsoleColor(BRIGHT_WHITE, GREEN);
 	cout << "Do you want to play another round?";
 	string str[2] = { "Yes", "No" };
-	int left[] = { 35,40,47,58,63,69 }, word[] = { 32,32,175,174 }, color[] = { BLACK, GREEN }, top = 19;
+	int left[] = { 59,64,71,82,87,93 }, word[] = { 32,32,175,174 }, color[] = { BLACK, GREEN }, top = 19;
 	bool choice = 1;
 	auto print1 = [&]()
 	{
